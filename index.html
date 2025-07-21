@@ -48,6 +48,7 @@
             <nav class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6 text-base sm:text-lg w-full md:w-auto items-center">
                 <a href="#novedades" class="hover:text-green-200 transition-colors duration-200">Novedades</a>
                 <a href="#productos" class="hover:text-green-200 transition-colors duration-200">Productos</a>
+                <a href="#recetas" class="hover:text-green-200 transition-colors duration-200">Recetas</a>
                 
                 <a href="javascript:void(0)" onclick="showComingSoonMessage()" class="bg-white text-green-700 px-3 py-1 sm:px-4 sm:py-2 rounded-full shadow hover:bg-green-100 transition-colors duration-200 mt-2 sm:mt-0">Mi Carrito</a>
             </nav>
@@ -211,6 +212,81 @@
 
         <hr class="my-8 sm:my-12 border-gray-300 w-full sm:w-1/2 mx-auto" />
 
+        <section class="p-6 md:p-8 mt-8 bg-white rounded-xl shadow-lg border-2 border-green-200 text-center" id="recetas">
+            <h1 class="text-2xl sm:text-3xl font-bold text-green-800 mb-4 sm:mb-6">Budin de Harina de Algarroba y naranja</h1>
+            <div class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-8">
+                <img src="https://i.pinimg.com/736x/88/79/e1/8879e17e0f9abefb2bb89a152bd41b4c.jpg" alt="Imagen de dato curioso" class="w-full md:w-1/2 lg:w-1/3 rounded-lg shadow-md object-cover">
+                <div class="text-left md:w-1/2 lg:w-2/3">
+                    <h3 class="text-xl sm:text-2xl font-semibold text-green-800 mb-2">Ingredientes</h3>
+                    <p class="text-sm sm:text-lg leading-relaxed text-gray-700 mb-4">
+                        150g Harina Integral<br>
+                        50g Harina de Algarroba<br>
+                        150g Avena Instantanea<br>
+                        10g Polvo de hornear<br>
+                        3 Huevos<br>
+                        200g Azucar<br>
+                        200cc Jugo de naranja<br>
+                        80cc Aceite de Girasol<br>
+                        1cda esencia Vainilla y ralladura de naranja.
+                    </p>
+                    <div id="recipe-steps" class="text-gray-600 text-sm sm:text-base leading-relaxed mt-4 hidden">
+                        <h4 class="text-lg sm:text-xl font-semibold text-green-700 mb-2">Pasos a Seguir:</h4>
+                        <ol class="list-decimal list-inside text-left mx-auto max-w-lg">
+                            <li>Precalienta el horno a en moderado.</li>
+                            <li>Mezclar en la procesadora el aceite, los huevos, el jugo de naranja y la esencia de vainilla</li>
+                            <li>Luego incorporar la Harina Integral, la de Algarroba y la Avena.</li>
+                            <li>Agregar ralladura de naranja y por ultimo Azucar.</li>
+                            <li>Colocar preparacion en molde de budin enmantecado.</li>
+                            <li>LLevar a horno, tiempo de cocción: 40 minutos a 45 minutos en horno moderado</li>
+                            
+                        </ol>
+                    </div>
+                    <h5 class="text-sm sm:text-base text-gray-600 mt-4"><strong>¡Un budin sano y muy facil de hacer!</strong></h5>
+                    <button data-target="recipe-steps" class="toggle-description mt-2 sm:mt-4 bg-green-500 text-white px-5 py-1 sm:px-6 sm:py-2 rounded-full hover:bg-green-600 transition-colors duration-200 shadow-md">Ver Pasos a Seguir</button>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-8 sm:my-12 border-gray-300 w-full sm:w-1/2 mx-auto" />
+
+        <section class="p-6 md:p-8 mt-8 bg-white rounded-xl shadow-lg border-2 border-green-200 text-center" id="recetas">
+            <h1 class="text-2xl sm:text-3xl font-bold text-green-800 mb-4 sm:mb-6">Receta de pan con Harina de Almendras sin Huevo</h1>
+            <div class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-8">
+                <img src="img/pan-harina-almendras.jpg" alt="Imagen de dato curioso" class="w-full md:w-1/2 lg:w-1/3 rounded-lg shadow-md object-cover">
+                <div class="text-left md:w-1/2 lg:w-2/3">
+                    <h3 class="text-xl sm:text-2xl font-semibold text-green-800 mb-2">Ingredientes</h3>
+                    <p class="text-sm sm:text-lg leading-relaxed text-gray-700 mb-4">
+                        175 g de harina de Almendras<br>
+                        55 g Lino Molido<br>
+                        50 g harina de Coco<br>
+                        50 g de psyllium<br>
+                        1 cucharadita de sal<br>
+                        2 cucharaditas de levadura seca<br>
+                        2 cucharadas de aceite Oliva<br>
+                        1 cucharadita de vinagre de Manzana<br>
+                        450 ml de agua tibia
+                    </p>
+                    <div id="recipe-steps" class="text-gray-600 text-sm sm:text-base leading-relaxed mt-4 hidden">
+                        <h4 class="text-lg sm:text-xl font-semibold text-green-700 mb-2">Pasos a Seguir:</h4>
+                        <ol class="list-decimal list-inside text-left mx-auto max-w-lg">
+                            <li>Precalienta el horno a 200 grados.</li>
+                            <li>En un bol mezcla todos los ingredientes secos. Añade el aceite, el vinagre y el agua. Cuidado, el agua tiene que ser templada (más o menos 40 grados) para activar las fibras en el psyllium. Mezcla bien todos los ingredientes y amasa con las manos durante 1 minuto. Deberías obtener una masa compacta y moldeable.</li>
+                            <li>Pon la masa en un molde engrasado o, con la ayuda de tus manos mojadas, forma una hogaza o unos 8 panecillos redondos</li>
+                            <li>Colócalos sobre una bandeja forrada con papel vegetal o engrasada. Los panecillos estarán listos en 35 minutos, el pan en 50 minutos.</li>
+                            <li>Comprueba con un palillo que el pan esté seco por dentro y deja enfriar sobre una rejilla.</li>
+                            <li>Tiempo de preparación: 15 minutos</li>
+                            <li>Tiempo de cocción: 35 minutos (panecillos) o 50 minutos (pan)</li>
+                            
+                        </ol>
+                    </div>
+                    <h5 class="text-sm sm:text-base text-gray-600 mt-4"><strong>¡Un pan solo con Harina de Almendras!</strong></h5>
+                    <button data-target="recipe-steps" class="toggle-description mt-2 sm:mt-4 bg-green-500 text-white px-5 py-1 sm:px-6 sm:py-2 rounded-full hover:bg-green-600 transition-colors duration-200 shadow-md">Ver Pasos a Seguir</button>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-8 sm:my-12 border-gray-300 w-full sm:w-1/2 mx-auto" />
+
         <section class="p-6 md:p-8 mt-8 bg-white rounded-xl shadow-lg border-2 border-green-200 text-center">
             <h1 class="text-2xl sm:text-3xl font-bold text-green-800 mb-4 sm:mb-6">Receta de pan con Harina de Sarraceno</h1>
             <div class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-8">
@@ -249,6 +325,23 @@
                     </div>
                     <h5 class="text-sm sm:text-base text-gray-600 mt-4"><strong>¡Un pan super esponjoso!</strong></h5>
                     <button data-target="recipe-steps" class="toggle-description mt-2 sm:mt-4 bg-green-500 text-white px-5 py-1 sm:px-6 sm:py-2 rounded-full hover:bg-green-600 transition-colors duration-200 shadow-md">Ver Pasos a Seguir</button>
+                </div>
+            </div>
+        </section>
+        <section class="p-6 md:p-8 mt-8 bg-white rounded-xl shadow-lg border-2 border-green-200 text-center">
+            <h1 class="text-2xl sm:text-3xl font-bold text-green-800 mb-4 sm:mb-6">¿Sabías Esto?</h1>
+            <div class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-8">
+                <img src="https://images.unsplash.com/photo-1587049352851-8d4e89133924?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de dato curioso" class="w-full md:w-1/2 lg:w-1/3 rounded-lg shadow-md object-cover">
+                <div class="text-left md:w-1/2 lg:w-2/3">
+                    <h3 class="text-xl sm:text-2xl font-semibold text-green-800 mb-2">Los beneficios de la Miel</h3>
+                    <p class="text-sm sm:text-lg leading-relaxed text-gray-700 mb-4">
+                        La miel, ese dulce néctar dorado producido por las abejas, ha sido valorada desde la antigüedad no solo por su delicioso sabor, sino también por sus impresionantes propiedades medicinales y nutricionales. Considerada un verdadero tesoro de la naturaleza, la miel ofrece una amplia gama de beneficios para nuestra salud y bienestar.
+
+Uno de sus atributos más conocidos es su poder edulcorante natural y saludable. A diferencia del azúcar refinado, la miel contiene una mezcla de azúcares (principalmente fructosa y glucosa) junto con vitaminas, minerales, aminoácidos y antioxidantes, lo que la convierte en una opción más nutritiva para endulzar bebidas y alimentos.
+
+La miel es un antibiótico y antiséptico natural sobresaliente. Sus propiedades antibacterianas y antifúngicas se deben a su bajo contenido de agua, su pH ácido y la presencia de peróxido de hidrógeno. Esto la hace ideal para el tratamiento de pequeñas heridas, quemaduras y abrasiones, ayudando a prevenir infecciones y acelerar la cicatrización.
+                    </p>
+                    <h5 class="text-sm sm:text-base text-gray-600">¡Su riqueza en antioxidantes es un punto clave!</h5>
                 </div>
             </div>
         </section>
